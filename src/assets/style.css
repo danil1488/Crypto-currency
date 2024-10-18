@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  align-items: center;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 103, 190, 1) 0%,
+    rgba(55, 84, 195, 1) 10%,
+    rgba(85, 52, 202, 1) 55%,
+    rgba(91, 46, 203, 1) 89%,
+    rgba(96, 41, 204, 1) 97%
+  );
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Заголовок */
+h1 {
+  caret-color: transparent;
+  font-family: 'Nabla', cursive;
+  margin-top: 5vh;
+  font-size: calc(2em + 2vw);
+  user-select: none;
+}
+
+/* Таблицы */
+table {
+  caret-color: transparent;
+  width: 100%;
+  border-collapse: collapse;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Медиазапросы */
+@media (max-width: 768px) {
+  span {
+    font-size: 200%;
+  }
+  h1 {
+    margin-top: 3vh;
+    font-size: calc(1.5em + 2vw);
+  }
+}
